@@ -63,7 +63,7 @@ def main(inargs):
 
 if __name__ == '__main__':
     description='Plot the precipitation climatology.'
-    parser = argparse.ArgumentParser(description=description)
+    parser = argparse.ArgumentParser(description='Plot the precipitation climatology for a given season.')
     
     parser.add_argument("pr_file", type=str, help="Precipitation data file")
     parser.add_argument("season", type=str, help="Season to plot")
